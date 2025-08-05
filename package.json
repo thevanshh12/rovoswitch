@@ -1,0 +1,35 @@
+{
+  "name": "rovoswitch",
+  "version": "1.0.0",
+  "description": "A CLI application for managing Rovo authentication profiles",
+  "main": "dist/index.js",
+  "bin": {
+    "rovoswitch": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "rovo",
+    "auth"
+  ],
+  "author": "dy99520",
+  "license": "MIT",
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "crypto-js": "^4.2.0",
+    "enquirer": "^2.4.1",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}

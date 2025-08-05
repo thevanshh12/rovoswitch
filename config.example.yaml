@@ -1,0 +1,10 @@
+profiles:
+  default:
+    email: "user@example.com"
+    token: "your-token-here"
+  work:
+    email: "work@company.com"
+    token: "work-token-here"
+  personal:
+    email: "personal@gmail.com"
+    token: "personal-token-here"
